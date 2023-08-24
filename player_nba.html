@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pendaftaran Pemain NBA</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Form Pendaftaran Pemain NBA</h1>
+        <form action="#" method="post" class="form-grid" target="_top">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+            <div class="form-group">
+                <label for="posisi">Posisi:</label>
+                <select id="posisi" name="posisi" required>
+                    <option value="Point Guard">Point Guard</option>
+                    <option value="Shooting Guard">Shooting Guard</option>
+                    <option value="Small Forward">Small Forward</option>
+                    <option value="Power Forward">Power Forward</option>
+                    <option value="Center">Center</option>
+                    <!-- Tambahkan posisi-posisi lainnya di sini -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="tim">Tim:</label>
+                <select id="tim" name="tim" required>
+                    <option value="Lakers">Los Angeles Lakers</option>
+                    <option value="Warriors">Golden State Warriors</option>
+                    <option value="Bulls">Chicago Bulls</option>
+                    <option value="Celtics">Boston Celtics</option>
+                    <!-- Tambahkan tim-tim lainnya di sini -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="tinggi">Tinggi (cm):</label>
+                <input type="number" id="tinggi" name="tinggi" required>
+            </div>
+            <div class="form-group">
+                <label for="berat">Berat (kg):</label>
+                <input type="number" id="berat" name="berat" required>
+            </div>
+            <div class="form-group">
+                <label for="usia">Usia:</label>
+                <input type="number" id="usia" name="usia" required>
+            </div>
+            <div class="form-group">
+                <label for="favcolor">Select your favorite color:</label>
+                <input type="color" id="favcolor" name="favcolor">
+            </div>
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+</body>
+</html>
