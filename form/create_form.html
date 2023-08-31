@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Player</h1>
+        <form action="#" method="post" class="form-grid">
+            <div class="form-grid">
+                <label for="firstname">Firstname</label>
+                <input type="text" id="firstname" name="firstname">
+            </div>
+            <div class="form-grid">
+                <label for="lastname">Lastname</label>
+                <input type="text" id="lastname" name="lastname"><br>
+            </div>
+            <div class="form-grid">
+                <label for="gender">Gender</label>
+                <input type="checkbox" id="gender" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="checkbox" id="gender" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div class="form-grid">
+                <label for="position">Position</label>
+                <select id="posisi" nama="posisi" required>
+                    <option value="point guard">Point Guard</option>
+                    <option value="shooting guard">Shooting Guard</option>
+                    <option value="small forward">Small Forward</option>
+                    <option value="power forward">Power Forward</option>
+                    <option value="center">Center</option>
+                </select>
+            </div>
+            <div class="form-grid">
+                <label for="tim">Team</label>
+                <select id="tim" name="tim" required >
+                    <option value="lakers">Los Angeles Lakers</option>
+                    <option value="warriors">Golden State Warrior</option>
+                    <option value="bulls">Chicago Bulls</option>
+                    <option value="celtrics">Boston Celtrics</option>
+                </select>
+            </div>
+            <div class="form-grid">
+                <label for="tinggi">Height</label>
+                <input type="number" id="tinggi" name="tinggi" required>
+            </div>
+            <div class="form-grid">
+                <label for="berat">Weight</label>
+                <input type="number" id="berat" name="berat" required>
+            </div>
+            <button type="submit">Kirim</button>
+
+        </form>
+    </div>
+</body>
+</html>
